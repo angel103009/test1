@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Documento</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section id="home">
+      <header>
+        <h1>
+          ANGEL ROJAS
+          <br> angel estebanrojas@gmail.com
+        </h1>       
+      </header>
+      <nav>
+        <div class="topdiv">
+          <a href="#acercade"><button class="topmenu">Acerca de</button></a>
+          <a href="#habilidades"><button class="topmenu">Habilidades</button></a>
+          <a href="#proyectos"><button class="topmenu">Proyectos</button></a>
+          <a href="#recomendaciones"><button class="topmenu">Recomendaciones</button></a>
+        </div>
+      </nav>
+    </section>
+    <div style="clear:both;"></div>
+    
+    <div id="all-conversion-sections">
+      <section id="acercade" class="b acercade">
+        <div id="tmp">
+          <figure>
+            <img src="https://queretaro.anahuac.mx/hubfs/Ilustraciones%20para%20web%20de%20carreras_Ing%20Mecatronica.png" class="imagen-acercade"/>
+          </figure>
+          <article>
+            <legend>Hola soy Angel Rojas!!</legend>
+            <label>
+              Soy ingeniero mecátronico, de la universidad de san buenaventura en bogota, Colombia. 
+              Deseo convertirme en desarrollador full stack, ya que esto puede abrirme puertas a un mejor empleo, 
+              además de que es algo que me apasiona y me gusta.
+            </label>
+          </article>
+        </div>
+      </section>
+      <div style="clear:both;"></div>
+      
+      <section id="habilidades" class="b habilidades">
+        <div id="wgt">
+          <article>
+            <legend>HABILIDADES</legend>
+            <div class="habilidades-contenedor">
+              <fieldset>
+                <legend>Java</legend>
+                <figure>
+                  <img src="https://1000marcas.net/wp-content/uploads/2020/11/Java-logo.png" class="imagen-habilidadesjava"/>
+                  <figcaption>Un año de experiencia</figcaption>
+                </figure>
+              </fieldset>
+              <fieldset>
+                <legend>Python</legend>
+                <figure>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnWrIcnr2YP1Zr22nl4P5fPoY49w25RNaUXg&s" class="imagen-habilidadespy" />
+                  <figcaption>Un año de experiencia</figcaption>
+                </figure>
+              </fieldset>
+            </div>
+          </article>
+        </div>
+      </section>
+      <div style="clear:both;"></div>
+      
+      <section id="proyectos" class="b proyectos">
+        <div id="dst">
+          <article>
+            <legend>PROYECTOS</legend>
+            <ol>
+              <li>
+                <b>BRAZO ROBOTICO MITSUBISHI:</b><br>
+                Formulé matemáticamente cómo calcular los pesos de cualquier objeto que levantara el brazo sin necesidad 
+                de sensores, solo calculando la corriente que consumía cada motor.
+              </li>
+              <br>
+              <li>
+                <b>Proyecto de PLC:</b><br>
+                Implementé la automatización de varios procesos industriales, uno de ellos fue la implementación de un
+                seleccionador de cajas por tamaños, utilizando sensores, bandas transportadoras y motores, además con una
+                interfaz a HDMI.
+              </li>
+              <br>
+              <li>
+                <b>Aplicaciones Java:</b><br>
+                Realicé una aplicación de contabilidad para una droguería, todo en Java, con interfaz, en la que se buscaba 
+                por medio de una base de datos el producto y se hacía el descuento, guardando todo el proceso y generando factura.
+              </li>
+            </ol>
+          </article>
+        </div>
+      </section>
+      <div style="clear:both;"></div>
+      
+      <section id="recomendaciones" class="b recomendaciones">
+        <div id="dstt">
+          <article>
+            <legend>Recomendaciones</legend>
+            <div id="lista-recomendaciones">
+            </div>
+            <h3>Deja una recomendación</h3>
+            <input type="text" id="nombre" placeholder="Nombre (Opcional)"><br><br>
+            <textarea id="mensaje" placeholder="Escribe tu recomendación aquí..." rows="3"></textarea><br><br>
+            <button onclick="agregarRecomendacion()">Enviar</button>
+          </article>
+        </div>
+      </section>
+      <div style="clear:both;"></div>
+    </div>
+    
+    <div id="go-home" class="iconbutton">
+      <a href="#home">
+        <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/home.svg" alt="Home"/>
+      </a>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
